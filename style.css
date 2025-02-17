@@ -1,0 +1,145 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+body {
+  background-color: #eae2b7;
+  color: #003049;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", Times, serif;
+  text-align: center;
+}
+
+/* Header */
+header {
+  text-align: center;
+}
+
+/* Containers */
+div {
+  background-color: #eae2b7;
+  margin: auto;
+  /* width: 600px; */
+}
+
+article {
+  padding: 50px 0;
+}
+
+article div {
+  
+  width: 100%;
+}
+
+/* Paragraphs */
+p {
+  line-height: 1.5;
+}
+
+/* Links */
+a:link {
+  color: #d62828;
+}
+
+a:hover {
+  color: #f77f00;
+}
+
+nav a {
+  padding-left: 20px;
+}
+
+/* Images */
+img {
+  width: 100%;
+  max-width: 450px; 
+  /* height: auto; */
+  /* margin-right: 10px; */
+  
+}
+
+.image-circle {
+  border: 2px solid #003049;
+  border-radius: 50%;
+  margin-left: 50px;
+  width: 200%;
+  max-width: 200px;
+  height: 200px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+}
+
+/* Other page elements */
+hr {
+  border: 1px solid black;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 420px;
+  margin-right: 110px;
+  text-align: center;
+}
+
+.flex-container > h1 {
+  margin-left: 20px;
+}
+.flex-container > nav {
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+.flex-container2 {
+  display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    /* align-items: flex-end; */
+  
+}
+
+/* .flex-container2 > h3 {
+  
+}
+
+.flex-container2 > div {
+
+}
+
+.flex-container2 > p {
+
+}
+
+.flex-container2 > ul {
+   
+} */
+
+.flex-container3 {
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  text-align: center;
+}
+
+.spiralzany {
+  width: 225px;
+  height: 200px;
+  /* margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 50px; */
+  align-content: space-evenly;
+}
+
+.cincogato {
+  width: 600px;
+
+}
